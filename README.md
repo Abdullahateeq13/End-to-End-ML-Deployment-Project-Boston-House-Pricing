@@ -15,4 +15,5 @@ python -m venv %name of virtual environment
 Activating New Environment
 ```
 then activate after going to venv folder then ./Scripts/activate
+myvenv/Scripts/activate
 ```
