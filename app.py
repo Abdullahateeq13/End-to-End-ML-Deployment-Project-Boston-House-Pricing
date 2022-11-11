@@ -6,7 +6,7 @@ from flask import Flask, render_template, request, jsonify, app, url_for
 import pandas as pd
 import numpy as np
 
-app = Flask(__name__)
+app=Flask(__name__)
 
 # Load the model
 regmodel = pickle.load(open('regmodel.pkl','rb'))
